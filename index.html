@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page with Top Panel and Three Layouts</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-panel">
+        <div class="left-content">
+            <span style="font-size: 30px; color: #5fccee;">MBscan</span>
+            <div class="hamburger-menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layouts">
+        <div class="layout1" style="width: 18%;">
+            <div class="top-right">
+                SpiffTest
+            </div>
+            <hr>
+            <div class="menu">
+                <ul>
+                    <li><i class="fa fa-home" style="margin-right: 10px;"></i><a href="#">Home</a></li>
+
+                    <li class="editactive"><i class="fa fa-group"style="margin-right: 10px;"></i><a  href="#">Create/Edit User</a></li>
+
+                    <li><i class="fa fa-sign-out"style="margin-right: 10px;"></i><a href="#">Logout</a></li>
+                </ul>
+               
+            </div>
+            <div class="bottom-content">
+                <img src="bysrc.png">
+            </div>
+        </div>
+        <div class="layout2" style="width: 16%;">
+            <div class="device-info">
+                <div>Device ID Connected</div>
+                <div class="did">MBS00007</div>
+                <div class="expmore"><i class="material-icons" style="font-weight: bolder;">expand_more</i></div>
+                <div>Temp</div>
+                <div class="temp">37.5C</div>
+                <div class="lay2select"><i class="fa fa-check-square" style="margin-right: 8px;"></i>Select</div>
+                <div class="white"><i class="fa fa-circle-o"style="margin-right: 8px;"></i>White</div>
+                <div class="strstop">
+                    <button><i class="fa fa-toggle-right" style="margin-right: 8px;"></i>Start</button>
+                    <button><i class="fa fa-square" style="margin-right: 8px;"></i>Stop</button>
+                </div>
+                <div class="setting"><i class="fa fa-gear" style="margin-right: 10px; font-size: 20px;"></i>Device Setting</div>
+            </div>
+        </div>
+        <div class="layout3" style="width: 66%;">
+
+            <div class="box-container">
+                <div class="box">
+                    <div class="box-header">01</div>
+                    <div class="box-content">TSRT1425</div>
+                    <div class="box-actions">
+                        <button>Take White</button>
+                        <button class="start">Start</button>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="box">
+                    <div class="box-header">02</div>
+                    <div class="box-content">TSRT1426</div>
+                    <div class="box-action">
+                        <button class="progress-button" id="progressButton">03 : 34 <span style="float: right; font-size: 16px;">25%</span></button>
+                    </div>
+                    
+                </div>
+
+
+
+
+
+
+
+                <div class="box">
+                    <div class="box-header">03</div>
+                    <div style="font-size: 14px; margin-top: 5px; color: #00308F;">Stop?</div>
+                    <div class="box-content" style="font-size: 14px; margin-top: 2px;">TSRT1425</div>
+                    <div class="box-actions">
+                        <button style="border: 1px solid #00308F;">Yes</button>
+                        <button style="background-color: #00308F; color: white; border: none;">No</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-header">04</div>
+                    <div class="box-content">TSRT1425</div>
+                    <div class="box-actions">
+                        <button style="background-color: rgb(28, 183, 28); color: white; font-size: large; border: none;">03:34</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-header">05</div>
+                    <div style="font-style: italic; margin-top: 10px;">Enter Simple Name</div>
+                    <div class="box-actions">
+                        <button>Take White</button>
+                        <button style="color: white; background-color: #00308F; border: none;">Start</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-header">05</div>
+                    <div style="font-style: italic; margin-top: 10px;">Enter Simple Name</div>
+                    <div class="box-actions">
+                        <button>Take White</button>
+                        <button style="color: white; background-color: #00308F; border: none;">Start</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-header">03</div>
+                    <div style="font-size: 14px; margin-top: 5px; color: #00308F;">White?</div>
+                    <div class="box-actions">
+                        <button style="border: 1px solid #00308F;">Yes</button>
+                        <button style="background-color: #00308F; color: white; border: none;">No</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-header">04</div>
+                    <div class="box-content">TSRT1425</div>
+                    <div class="box-actions">
+                        <button style="background-color: rgb(28, 183, 28); color: white; font-size: large; border: none;">03:34</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-header">01</div>
+                    <div class="box-content">TSRT1425</div>
+                    <div class="box-actions">
+                        <button>Take White</button>
+                        <button class="start">Start</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-header">02</div>
+                    <div class="box-content">TSRT1426</div>
+                    <div class="box-action">
+                        <button class="progress-button" id="progressButton1">03 : 34 <span style="float: right; font-size: 16px;">25%</span></button>
+                    </div>
+                    
+                </div>
+                <div class="box">
+                    <div class="box-header">03</div>
+                    <div style="font-size: 14px; margin-top: 5px; color: #00308F;">Stop?</div>
+                    <div class="box-content" style="font-size: 14px; margin-top: 2px;">TSRT1425</div>
+                    <div class="box-actions">
+                        <button style="border:1px solid #00308F;">Yes</button>
+                        <button style="background-color: #00308F; color: white; border: none;">No</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-header">04</div>
+                    <div class="box-content">TSRT1425</div>
+                    <div class="box-actions">
+                        <button style="background-color: rgb(28, 183, 28); color: white; font-size: large; border: none;">03:34</button>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-header">01</div>
+                    <div class="box-content">TSRT1425</div>
+                    <div class="box-actions">
+                        <button>Take White</button>
+                        <button class="start">Start</button>
+                    </div>
+                </div>
+
+                <div class="box1">
+                    <div class="box-header1">01</div>
+                    <div class="box-content1">TSRT1425</div>
+                    <div class="box-actions1">
+                        <button>Take White</button>
+                        <button class="start">Start</button>
+                    </div>
+                </div>
+
+                <!-- <div class="box">
+                    <div class="box-header">01</div>
+                    <div class="box-content">TSRT1425</div>
+                    <div class="box-actions">
+                        <button>Take White</button>
+                        <button class="start">Start</button>
+                    </div>
+                </div> -->
+                <div class="box">
+                    <div class="box-header">03</div>
+                    <div style="font-size: 14px; margin-top: 5px; color: #00308F;">Stop?</div>
+                    <div class="box-content" style="font-size: 14px; margin-top: 2px;">TSRT1425</div>
+                    <div class="box-actions">
+                        <button style="border: none;">Yes</button>
+                        <button style="background-color: #00308F; color: white; border: none;">No</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-header">04</div>
+                    <div class="box-content">TSRT1425</div>
+                    <div class="box-actions">
+                        <button style="background-color: rgb(28, 183, 28); color: white; font-size: large; border: none;">03:34</button>
+                    </div>
+                </div>
+
+
+                
+              
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
